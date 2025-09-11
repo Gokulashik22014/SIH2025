@@ -25,14 +25,7 @@ export const Student={
         "Computer Science",
         "Electrical Engineering",
         "Mechanical Engineering",
-        "Civil Engineering",
-        "Business Administration",
-        "Mathematics",
-        "Physics",
-        "Chemistry",
-        "Biology",
-        "English",
-        "Other"
+        "Computer Science and Design",
       ],
       "description": "Student department"
     },
