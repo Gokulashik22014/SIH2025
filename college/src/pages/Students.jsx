@@ -34,6 +34,7 @@ export default function Students() {
       ]);
       setStudents(studentsData);
       setCertificates(certificatesData);
+      console.log("what the meow meow")
     } catch (error) {
       console.error("Error loading data:", error);
     }
