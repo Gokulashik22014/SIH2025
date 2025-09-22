@@ -28,6 +28,7 @@ import { Student } from "./entities/Student";
 import { Certificate } from "./entities/Certificate";
 import Students from "./pages/Students";
 import Certificates from "./pages/Certificates";
+import SearchPage from "./pages/Search";
 
 const navigationItems = [
   {
@@ -52,7 +53,7 @@ const navigationItems = [
     title: "Quick Search",
     url: createPageUrl("Search"),
     icon: Search,
-    comp:<Search/>
+    comp:<SearchPage/>
   },
 ];
 
@@ -69,8 +70,8 @@ export default function Layout({ children, currentPageName }) {
                 <GraduationCap className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h2 className="font-bold text-slate-800 text-lg">CollegeHub</h2>
-                <p className="text-xs text-slate-500 font-medium">Student Management</p>
+                <h2 className="font-bold text-slate-800 text-lg">UniHUB</h2>
+                <p className="text-xs text-slate-500 font-medium">Student Activity Record</p>
               </div>
             </div>
           </SidebarHeader>

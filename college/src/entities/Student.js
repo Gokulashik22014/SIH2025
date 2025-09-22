@@ -4,10 +4,10 @@ let students = [
   {
     id: 1,
     roll_no: "CS2025001",
-    name: "Aarav Kumar",
+    name: "Balamurugan R",
     email: "aarav.kumar@example.com",
     phone: "+91-9876543210",
-    department: "Computer Science",
+    department: "Computer Science and Design",
     year: "2nd Year",
     admission_date: "2023-08-01",
     address: "12, MG Road, Bangalore, Karnataka",
@@ -18,7 +18,7 @@ let students = [
   {
     id: 2,
     roll_no: "EE2025007",
-    name: "Priya Sharma",
+    name: "Shyam",
     email: "priya.sharma@example.com",
     phone: "+91-9123456780",
     department: "Electrical Engineering",
@@ -32,7 +32,7 @@ let students = [
   {
     id: 3,
     roll_no: "MD2025012",
-    name: "Rohan Verma",
+    name: "Harini S",
     email: "rohan.verma@example.com",
     phone: "+91-9765432109",
     department: "Computer Science and Design",

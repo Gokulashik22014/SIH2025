@@ -24,7 +24,7 @@ export default function StudentFilters({ filters, onFilterChange }) {
             <SelectItem value="Electrical Engineering">Electrical Eng.</SelectItem>
             <SelectItem value="Mechanical Engineering">Mechanical Eng.</SelectItem>
             <SelectItem value="Civil Engineering">Civil Eng.</SelectItem>
-            <SelectItem value="Business Administration">Business Admin.</SelectItem>
+            <SelectItem value="Business Administration">Computer Science and Design</SelectItem>
             <SelectItem value="Mathematics">Mathematics</SelectItem>
             <SelectItem value="Other">Other</SelectItem>
           </SelectContent>
