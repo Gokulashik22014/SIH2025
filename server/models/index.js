@@ -11,7 +11,7 @@ const env = process.env.NODE_ENV || 'development';
 const config = configFile[env];
 const db = {};
 
-const sequelize = new Sequelize('postgresql://admin:1234@54.173.57.28:5432/sih', {})
+const sequelize = new Sequelize('postgresql://admin:1234@localhost:5432/sih', {})
 // let sequelize;
 // if (config.use_env_variable) {
 //   sequelize = new Sequelize(process.env[config.use_env_variable], config);

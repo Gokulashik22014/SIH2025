@@ -1,6 +1,6 @@
 'use strict';
 
-export async function up(queryInterface, Sequelize) {
+async function up(queryInterface, Sequelize) {
   await queryInterface.createTable('students', {
     id: {
       type: Sequelize.INTEGER,
@@ -61,6 +61,8 @@ export async function up(queryInterface, Sequelize) {
   });
 }
 
-export async function down(queryInterface, Sequelize) {
+async function down(queryInterface, Sequelize) {
   await queryInterface.dropTable('students');
 }
+
+export default {up,down}
